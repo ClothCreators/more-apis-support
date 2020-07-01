@@ -1,0 +1,10 @@
+{
+  "id": "more-apis-support",
+  "minversion": 202000322116,
+  "info": {
+    "name": "More APIs Support",
+    "version": "0.1.0",
+    "description": "Allows installing various mods as apis for your mod",
+    "author": "Goldorion with the help of CrispyChips and BoogieMonster1O1"
+  }
+}

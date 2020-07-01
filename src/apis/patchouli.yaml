@@ -1,0 +1,30 @@
+---
+forge-1.14.4:
+  gradle: |
+      repositories {
+      //Jared's maven
+        maven { url 'https://maven.blamejared.com' }
+      }
+
+      dependencies {
+      //Patchouli
+        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.14.4-1.1-26.139:api")
+        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.14.4-1.1-26.139")
+      }
+  update_files:
+    - ~
+forge-1.15.2:
+  gradle: |
+      repositories {
+      //Jared's maven
+        maven { url 'https://maven.blamejared.com' }
+      }
+
+      dependencies {
+      //Patchouli
+        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.15.2-1.2-34.184:api")
+        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.15.2-1.2-34.184")
+      }
+  update_files:
+    - ~
+name: Patchouli
