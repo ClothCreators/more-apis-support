@@ -1,0 +1,16 @@
+---
+forge-1.14.4:
+  gradle: |
+      dependencies {
+        compile files("AC2.deobf.jar")
+      }
+  update_files:
+    - ~
+forge-1.15.2:
+  gradle: |
+      dependencies {
+        compile files("AC2.deobf.jar")
+      }
+  update_files:
+    - ~
+name: "Arcanecraft II"

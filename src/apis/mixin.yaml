@@ -1,0 +1,62 @@
+---
+forge-1.14.4:
+  gradle: |
+      buildscript {
+        repositories {
+        maven { url='https://dist.creeper.host/Sponge/maven' }
+        }
+
+        dependencies {
+        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
+        }
+
+      }
+
+      apply plugin: 'org.spongepowered.mixin'
+
+      repositories {
+        maven {
+          url = 'https://dist.creeper.host/Sponge/maven'
+        }
+      }
+
+      mixin {
+        add sourceSets.main, "mixins.modid.refmap.json"
+      }
+
+      dependencies {
+        implementation("org.spongepowered:mixin:0.8")
+      }
+  update_files:
+    - ~
+forge-1.15.2:
+  gradle: |
+      buildscript {
+        repositories {
+        maven { url='https://dist.creeper.host/Sponge/maven' }
+        }
+
+        dependencies {
+        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
+        }
+
+      }
+
+      apply plugin: 'org.spongepowered.mixin'
+
+      repositories {
+        maven {
+          url = 'https://dist.creeper.host/Sponge/maven'
+        }
+      }
+
+      mixin {
+        add sourceSets.main, "mixins.modid.refmap.json"
+      }
+
+      dependencies {
+        implementation("org.spongepowered:mixin:0.8")
+      }
+  update_files:
+    - ~
+name: Mixin

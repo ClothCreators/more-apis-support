@@ -1,0 +1,42 @@
+{
+  "message0": "Get item in curio slot type %1 and slot number %2 for %3",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "identifier",
+      "check": "String"
+    },
+    {
+      "type": "input_value",
+      "name": "index",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "entity",
+      "check": "Entity"
+    }
+  ],
+  "inputsInline": true,
+  "output": "MCItem",
+  "colour": 350,
+  "mcreator": {
+    "toolbox_id": "curios",
+    "toolbox_init": [
+      "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>",
+      "<value name=\"index\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>"
+    ],
+    "inputs": [
+      "identifier","index","entity"
+    ],
+    "required_apis":[
+      "curios"
+    ],
+    "dependencies": [
+      {
+        "name": "entity",
+        "type": "entity"
+      }
+    ]
+  }
+}
