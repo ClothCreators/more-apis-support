@@ -8,8 +8,8 @@ forge-1.14.4:
 
       dependencies {
       //Patchouli
-        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.14.4-1.1-26.139:api")
-        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.14.4-1.1-26.139")
+        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.14.4-1.1-27.2:api")
+        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.14.4-1.1-27.2")
       }
   update_files:
     - ~

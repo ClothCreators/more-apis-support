@@ -1,0 +1,17 @@
+---
+forge-1.12.2:
+    gradle: |
+        repositories {
+            maven {
+              name = "Progwml6 maven"
+              url = "https://dvs1.progwml6.com/files/maven/"
+            }
+          }
+
+        dependencies {
+        	deobfCompile "slimeknights.mantle:Mantle:1.12-1.3.3.49"
+        	deobfCompile "slimeknights:TConstruct:1.12.2-2.12.0.135"
+        }
+    update_files:
+        - ~
+name: "Tinkers Construct"

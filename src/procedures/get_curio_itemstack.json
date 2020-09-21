@@ -1,5 +1,4 @@
 {
-  "message0": "Get item in curio slot type %1 and slot number %2 for %3",
   "args0": [
     {
       "type": "input_value",
@@ -23,8 +22,9 @@
   "mcreator": {
     "toolbox_id": "curios",
     "toolbox_init": [
-      "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>",
-      "<value name=\"index\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>"
+      "<value name=\"identifier\"><block type=\"text\"><field name=\"TEXT\">identifier</field></block></value>",
+      "<value name=\"index\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>"
     ],
     "inputs": [
       "identifier","index","entity"
