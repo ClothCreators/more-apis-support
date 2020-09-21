@@ -3,7 +3,8 @@ Support more APIs in MCreator via MCreator 2020.4's API loading plugin system!
 Currently, fully supported APIs include [Patchouli](https://github.com/Vazkii/Patchouli), [JEI](https://github.com/mezz/JustEnoughItems), and [Curios](https://github.com/TheIllusiveC4/Curios).
 ## Install Instructions
 **NOTE: THIS PLUGIN ONLY WORKS FOR MCreator 2020.4 snapshots and newer versions!**
-**Way A**
+
+### Way A**
 
 **First step a)** : Close MCreator.
 
@@ -13,7 +14,7 @@ Currently, fully supported APIs include [Patchouli](https://github.com/Vazkii/Pa
 
 **Third step a)** : open MCreator, if everything is fine, then procedure blocks should be here. If not, open an issue.
 
-## Way B
+### Way B
 
 **First step b)** : Launch MCreator.
 
